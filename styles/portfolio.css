@@ -172,3 +172,97 @@ main{
   font-weight: 400;
   color: rgb(117, 117, 117);
 }
+
+.resume-title{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+  margin: 87px auto 75px auto;
+}
+
+
+.resume-container{
+  display: flex;
+  gap: 16px;
+}
+
+.resume-column-title{
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.experience-title{
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 6.7px;
+}
+
+.experience-sub-title{
+  color: rgb(117, 117, 117);
+  font-size: 13.4px ;
+  font-weight:600 ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.experience-description{
+  color: rgb(117, 117, 117);
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  padding-right: 31px;
+}
+hr{
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.btn-cv{
+  text-align: center;
+}
+
+footer{
+  background-color: rgb(255, 248, 243);
+}
+
+.contact-container{
+  display: flex;
+  padding: 87px 155px;
+  gap: 78px;
+}
+
+.contact-title{
+   font-size: 23px;
+   font-weight: 700;
+   color: rgb(24, 24, 24);
+   margin-bottom: 0px;
+}
+
+.contact-description{
+   font-size: 11px;
+   font-weight: 400;
+   color: rgb(71, 71, 71);
+   margin: 13px 0 20px;
+}
+
+.contact-icon{
+  display: flex;
+  gap: 16px;
+  margin-top: 0;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 12px 175px 12px 20px;
+  height: 64px;
+  border-radius: 5px;
+  border: none;
+
+}
+
