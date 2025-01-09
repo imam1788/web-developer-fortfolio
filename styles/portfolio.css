@@ -258,6 +258,7 @@ footer{
 footer input[type="text"], footer input[type="email"], footer textarea{
   display: block;
   width: 100%;
+  margin-top: 18px;
   margin-bottom: 18px;
   padding: 12px 175px 12px 20px;
   height: 64px;
